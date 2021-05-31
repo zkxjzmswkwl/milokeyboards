@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "NinjaWarrior";
+  src: url("../fonts/NINJAWARRIOR.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Khiara";
+  src: url("../fonts/Khiara.ttf") format("truetype");
+}
+
+body {
+  /* Colors */
+  background-color: #f2f1df;
+  color: #d98162;
+
+  /* Font stuff */
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: 1.5rem;
+
+  /* Positioning stuff */
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+p {
+  font-family: Georgia;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.headertext {
+  display: inline;
+  font-family: "Khiara" !important;
+  font-size: 6rem;
+  padding: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #f2f1df;
+  text-shadow: -1px -1px 0 #d98162, 1px -1px 0 #d98162, -1px 1px 0 #d98162,
+    1px 1px 0 #d98162;
+  margin-right: 1rem;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: #d98162 !important;
+  font-family: "Khiara";
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.naventry {
+  border-bottom: solid 0.2rem #d98162;
+  margin-right: 1rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.navbar {
+  margin-top: 1.5rem;
+}
+
+.raised {
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.09);
+  padding: 1rem;
+  border-left: 0.2rem solid #d98162;
+  border-top: 0.2rem solid #d98162;
+}
+
+.raised a {
+  font-family: Georgia !important;
+  font-weight: 600;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.footer a {
+  font-family: georgia;
+  font-size: 12px;
+}

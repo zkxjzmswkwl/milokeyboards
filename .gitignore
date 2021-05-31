@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/milokeyboards
+milokeyboards.so
+milokeyboards.dylib
+milokeyboards.dll
+milokeyboards.a
+milokeyboards.lib
+milokeyboards-test-*
+*.exe
+*.o
+*.obj
+*.lst

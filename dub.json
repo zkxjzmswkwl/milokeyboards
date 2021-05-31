@@ -1,0 +1,12 @@
+{
+	"authors": [
+		"Carter"
+	],
+	"copyright": "Copyright © 2021, Carter",
+	"dependencies": {
+		"vibe-d": "~>0.9.3"
+	},
+	"description": "MiloKeyboards.com site",
+	"license": "Apache 2.0",
+	"name": "milokeyboards"
+}

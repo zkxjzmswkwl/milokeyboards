@@ -1,0 +1,8 @@
+div(class="navbar")
+    ul
+        li(class="naventry")
+            a(href="/") Home
+        li.divider
+        li(class="naventry")
+            a(href="https://discord.gg/7A9JtzPCy2") Discord 
+        li.divider

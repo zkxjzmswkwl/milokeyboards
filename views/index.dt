@@ -1,0 +1,25 @@
+extends layout
+block body
+    .raised
+        :markdown
+            ## Introduction
+            We're a group of hobbyists consisting of passionate people from South Korea, the United States, Japan and Sweden who **love** keyboards.
+
+            Soon a product list will be live where you'll be able to order switches, plates, our own professionally crafted and treated wood cases, and more. Until then, feel free to inquire about any of the services listed below in our [Discord](https://discord.gg/7A9JtzPCy2).
+
+            ## Site Purpose
+            While there are plenty of sites ran by wonderful people that provide the components for high-end builds, it's rarely a one-stop-shop.
+            Our mission is to provide **affordable** services and products that **save you time**.
+
+            ## Services
+            There's no shortage of information when it comes to finding what's right for you, that's no secret. Unfortunately it's not uncommon for newcomers to be overwhelmed at the wealth of information. Whether you use any of our services or not, feel free to join the Discord to ask any questions you may run into when building a keyboard.
+
+            ### Lube & Filming
+            We'll order, lubricate, and film the switches of your choice and get them shipped to you ASAP.
+
+            ### Builds
+            Have your eye on a nice build but haven't got the time to ensure you achieve the quality you're after? That's completely understandable. We're more than happy to build and modify keyboards for our customers. 
+    
+    .footer
+        :markdown
+            [Built with the D programming language](https://dlang.org)
